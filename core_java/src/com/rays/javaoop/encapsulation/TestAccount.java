@@ -8,8 +8,14 @@ public class TestAccount {
 		System.out.println(a1.getnumber());
 		a1.setType("Account type is saving");
 		System.out.println(a1.gettype());
-		a1.setBalance( 5724564.21);
+		a1.setBalance( 500.00);
 		System.out.println( a1.getbalance());
+		a1.deposit(1200.00);
+		System.out.println("after deposite total balance is ="+a1.getbalance());
+		a1.withdraw(500.00);
+		System.out.println("afte withdraw total balance is ="+a1.getbalance());
+		a1.fundtransfer(1500.00);
+		System.out.println("after fund transfer total balance is ="+a1.getbalance());
 		
 	}
 

@@ -26,6 +26,28 @@ public class Account {
 	public double getbalance() {
 		return this.balance;
 	}
+	public double deposit(double amount) {
+		return this.balance= amount+balance;
+	}
+	public double withdraw(double amount) {
+		if ( amount > this.balance) {
+			System.out.println("insufficient balance");
+			
+		}else {
+		return this.balance= balance - amount;
+		}
 	
+	return this.balance;
+	}
+			
+	public double fundtransfer(double amount) {
+		if(amount>this.balance) {
+			System.out.println("insufficient balance");
+		}else {
+			return this.balance= balance - amount;
+		}
+		return this.balance;
+		
+	}
 
 }
