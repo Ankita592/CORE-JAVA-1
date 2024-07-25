@@ -16,8 +16,10 @@ public class Rectangle extends Shape {
 	public void setWidth(int width) {
 		this.width = width;
 	}
-	public void area() {
-		System.out.println(length*width);
+	public double area() {
+		double area= length*width;
+		return area;
+		
 	}
 	
 

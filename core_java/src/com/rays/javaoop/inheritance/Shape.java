@@ -15,9 +15,11 @@ public class Shape {
 	}
 	public void setBorderwidth(int borderwidth) {
 		this.borderwidth = borderwidth;
+	
 	}
-	
-	
+	public double area() {
+		return 0.0;
+	}
      
 
 }

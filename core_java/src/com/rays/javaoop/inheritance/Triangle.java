@@ -15,8 +15,9 @@ public class Triangle extends Shape {
 	public void setHeight(int height) {
 		this.height = height;
 	}
-	public void area() {
-		System.out.println(base*height/2);
+	public double area() {
+		double area=base*height/2;
+		return area;
 	}
 	
 	

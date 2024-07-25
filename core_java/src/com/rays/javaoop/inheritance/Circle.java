@@ -2,17 +2,18 @@ package com.rays.javaoop.inheritance;
 
 public class Circle extends Shape {
 	 
-	private int Radius;
+	private int r;
 
-	public int getRadius() {
-		return Radius;
+	public int getR() {
+		return r;
 	}
 
-	public void setRadius(int radius) {
-		Radius = radius;
+	public void setR(int r) {
+		this.r=r;
 	}
-	public void area() {
-		System.out.println(Radius*Radius*3.14);
+	public double area() {
+		double area = r*r*3.14;
+		return area;
 	}
 	 
 

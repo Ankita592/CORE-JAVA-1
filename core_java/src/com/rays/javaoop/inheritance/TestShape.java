@@ -10,9 +10,10 @@ public class TestShape {
 		System.out.println(c.getColour());
 		c.setBorderwidth(1);
 		System.out.println(c.getBorderwidth());
-		c.setRadius(3);
-		System.out.println(c.getRadius());
+		c.setR(5);
+		System.out.println(c.getR());
 		c.area();
+		System.out.println(c.area());
 		
 		r.setColour("blue");
 		System.out.println(r.getColour());
@@ -23,6 +24,7 @@ public class TestShape {
 		r.setWidth(3);
 		System.out.println(r.getWidth());
 		r.area();
+		System.out.println(r.area());
 		
 		t.setColour("red");
 		System.out.println(t.getColour());
@@ -33,6 +35,7 @@ public class TestShape {
 		t.setHeight(7);
 		System.out.println(t.getHeight());
 		t.area();
+		System.out.println(t.area());
 		
 	}
 
